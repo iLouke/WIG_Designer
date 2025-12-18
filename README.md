@@ -14,10 +14,10 @@ This application serves as a bridge between parametric design and aerodynamic an
 **Key Features:**
 
 - **Parametric Design:** Define wings using rib stations with adjustable chord, twist, and NACA 4-digit airfoil parameters (Camber, Thickness).
-- **Real-time Visualization:** \* Professional Quad-View CAD interface (Top, Front, Side, Isometric).
+- **Real-time Visualization:** Professional Quad-View CAD interface (Top, Front, Side, Isometric).
   - Real-time adjustments of geometry.
   - Visualization of Surface Normals and Local Coordinate Systems.
-- **Advanced Meshing:** \* Structured grid generation for aerodynamic panels.
+- **Advanced Meshing:** Structured grid generation for aerodynamic panels.
   - Watertight Boolean Unions for solid modeling.
   - Automatic mirroring and symmetry handling.
 - **Export:** Export geometry to `.OBJ` format for compatibility with external solvers (XFLR5, OpenFOAM, etc.).
@@ -63,7 +63,7 @@ This application serves as a bridge between parametric design and aerodynamic an
 1.  **Clone the repository**
 
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/WIG_Designer.git](https://github.com/YOUR_USERNAME/WIG_Designer.git)
+    git clone https://github.com/iLouke/WIG_Designer.git
     cd WIG_Designer
     ```
 
@@ -125,17 +125,15 @@ WIG_Designer/
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please fork the repository and submit a Pull Request.
+Contributions are welcome! Please follow these steps to contribute to the project:
 
-Fork the Project
-
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-
-Push to the Branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
+| Step | Action     | Command                                        |
+| :--- | :--------- | :--------------------------------------------- |
+| 1    | **Fork**   | Click the 'Fork' button at the top of the page |
+| 2    | **Branch** | `git checkout -b feature/AmazingFeature`       |
+| 3    | **Commit** | `git commit -m 'Add some AmazingFeature'`      |
+| 4    | **Push**   | `git push origin feature/AmazingFeature`       |
+| 5    | **PR**     | Open a Pull Request from your fork             |
 
 ## 📄 License
 
