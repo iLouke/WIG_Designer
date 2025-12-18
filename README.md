@@ -22,7 +22,34 @@ This application serves as a bridge between parametric design and aerodynamic an
   - Automatic mirroring and symmetry handling.
 - **Export:** Export geometry to `.OBJ` format for compatibility with external solvers (XFLR5, OpenFOAM, etc.).
 
-## 📸 Screenshots
+## 📸 Gallery
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/demo 01.png" width="400" alt="Isometric View">
+      <br />
+      <b>Main View</b>
+    </td>
+    <td align="center">
+      <img src="assets/demo 02.png" width="400" alt="Wireframe View">
+      <br />
+      <b>Wireframe & Normals</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/demo 03.png" width="400" alt="Side Profile">
+      <br />
+      <b>Top View (YX)</b>
+    </td>
+    <td align="center">
+      <img src="assets/demo 04.png" width="400" alt="Boolean Result">
+      <br />
+      <b>Front View (ZY)</b>
+    </td>
+  </tr>
+</table>
 
 ## 🛠️ Installation
 

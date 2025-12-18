@@ -40,7 +40,7 @@ class PlaneDesigner(QMainWindow):
     def __init__(self):
         """Constructor: Sets up the UI layout, initializes default data, and starts the 3D plotter."""
         super().__init__()
-        self.setWindowTitle("PhD WIG Design Tool (Stable CAD Mode)")
+        self.setWindowTitle("PhD WIG Design Tool")
         self.resize(1600, 1000)
 
         # 1. Initialize Data Model
