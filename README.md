@@ -64,3 +64,52 @@ To launch the application:
 ```bash
 python main.py
 ```
+
+Workflow
+Structure Tree: Use the left panel to add Wings or Fuselages.
+
+Properties: Select a component to edit its parameters (Position, Rotation, Airfoil shape).
+
+Visualization: \* Use the Camera Toolbar to switch views.
+
+Toggle "Show Normals" or "Show Local Axis" in the Properties panel to debug geometry.
+
+Export:
+
+Click Preview Union to check the solid model.
+
+Click Export to .OBJ to save the mesh.
+
+📂 Project Structure
+Plaintext
+
+WIG_Designer/
+├── main.py # Entry point
+├── requirements.txt # Dependencies
+└── src/
+├── geometry/ # Core Logic
+│ ├── components.py # Data structures (Vehicle, Wing, Fuselage)
+│ └── mesher.py # Math & Mesh generation algorithms
+└── gui/ # User Interface
+├── designer.py # Main Window & Interaction logic
+└── dialogs.py # Preview & helper windows
+🤝 Contributing
+Contributions are welcome! Please fork the repository and submit a Pull Request.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+🙏 Acknowledgements
+PyVista for the powerful 3D VTK interface.
+
+PyQt6 for the GUI framework.
