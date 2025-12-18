@@ -65,24 +65,25 @@ To launch the application:
 python main.py
 ```
 
-Workflow
-Structure Tree: Use the left panel to add Wings or Fuselages.
+## Workflow
 
-Properties: Select a component to edit its parameters (Position, Rotation, Airfoil shape).
+1.  **Structure Tree:** Use the left panel to add Wings or Fuselages.
 
-Visualization: \* Use the Camera Toolbar to switch views.
+2.  **Properties:** Select a component to edit its parameters (Position, Rotation, Airfoil shape).
 
-Toggle "Show Normals" or "Show Local Axis" in the Properties panel to debug geometry.
+3.  **Visualization:** Use the Camera Toolbar to switch views.
 
-Export:
+- Toggle "Show Normals" or "Show Local Axis" in the Properties panel to debug geometry.
 
-Click Preview Union to check the solid model.
+4.  **Export:**
 
-Click Export to .OBJ to save the mesh.
+- Click Preview Union to check the solid model.
 
-📂 Project Structure
-Plaintext
+- Click Export to .OBJ to save the mesh.
 
+## 📂 Project Structure
+
+```bash
 WIG_Designer/
 ├── main.py # Entry point
 ├── requirements.txt # Dependencies
@@ -93,7 +94,10 @@ WIG_Designer/
 └── gui/ # User Interface
 ├── designer.py # Main Window & Interaction logic
 └── dialogs.py # Preview & helper windows
-🤝 Contributing
+```
+
+## 🤝 Contributing
+
 Contributions are welcome! Please fork the repository and submit a Pull Request.
 
 Fork the Project
@@ -106,10 +110,12 @@ Push to the Branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📄 License
+## 📄 License
+
 Distributed under the MIT License. See LICENSE for more information.
 
-🙏 Acknowledgements
+## 🙏 Acknowledgements
+
 PyVista for the powerful 3D VTK interface.
 
 PyQt6 for the GUI framework.
